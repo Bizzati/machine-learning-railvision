@@ -4,4 +4,3 @@ kaggle
 ultralytics
 tensorflow
 tensorflowjs
-ultralytics
