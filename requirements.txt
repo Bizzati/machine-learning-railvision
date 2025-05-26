@@ -1,6 +1,9 @@
+beautifulsoup4
+requests
 pandas
-matplotlib
-kaggle
-ultralytics
-tensorflow
-tensorflowjs
+pytest
+pytest-cov
+sqlalchemy
+google-auth
+gspread
+pytz
