@@ -30,7 +30,7 @@ CSRNet adalah model berbasis Convolutional Neural Network (CNN) yang dirancang k
 
 YOLOv8n adalah versi ringan dari keluarga YOLOv8, dirancang untuk deteksi objek real-time dengan efisiensi tinggi. Berbeda dengan CSRNet yang fokus pada estimasi jumlah dalam bentuk density map, YOLOv8n mendeteksi setiap objek (misalnya, kepala manusia) dalam citra dan memberikan output berupa bounding box. Model ini sangat cepat dan cocok untuk aplikasi real-time, tetapi dapat mengalami kesulitan dalam mendeteksi objek yang sangat padat atau saling tumpang tindih seperti dalam kasus kerumunan ekstrem di stasiun. Oleh karena itu, meskipun akurasinya baik pada kerumunan longgar, performanya kurang optimal untuk skenario kereta.
 
-- Link model:
+- Link model: https://drive.google.com/drive/folders/1XiQFsC3ut978uqOt_82b3u2gza9PD4by?usp=drive_link
 
 3. **FusionCount**
 
