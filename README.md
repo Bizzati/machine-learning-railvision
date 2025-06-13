@@ -1,5 +1,6 @@
 # machine-learning-railvision
-Tolong deskripsiin pendek
+
+RailVision adalah aplikasi AI berbasis web yang dirancang untuk mendeteksi dan mengklasifikasikan tingkat kepadatan keramaian di stasiun kereta. Aplikasi ini menggunakan teknologi vision-based crowd counting dan klasifikasi berbasis deep learning. Output utama berupa prediksi jumlah orang dan kategori kepadatan: Sangat Sepi, Sepi, Sedang, Padat, Sangat Padat.
 
 **Dataset used**: https://www.kaggle.com/datasets/tthien/shanghaitech
 
