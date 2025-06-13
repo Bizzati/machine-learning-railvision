@@ -5,7 +5,7 @@ RailVision adalah aplikasi AI berbasis web yang dirancang untuk mendeteksi dan m
 **Dataset used**: https://www.kaggle.com/datasets/tthien/shanghaitech
 
 ## Models
-We trained 3 previously researched models based on the benchmark [here](https://paperswithcode.com/sota/crowd-counting-on-shanghaitech-a), which are [CSRNet](link referensi), [Fusion-Count](), and [YOLO]()
+We trained 3 previously researched models based on the benchmark [here](https://paperswithcode.com/sota/crowd-counting-on-shanghaitech-a), which are [CSRNet](link taro sini), [Fusion-Count](), and [YOLO]()
 all our models are trained using TensorFlow architecture optimized for large scale production.
 
 1. **CSRNet(Congested Scene Recognition Network)**
