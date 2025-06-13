@@ -18,7 +18,7 @@ Untuk meningkatkan variasi dan generalisasi model, dalam proyek ini kami menggab
 - 10% testing
 
 ## Models
-Kami melatih 3 model yang telah diteliti sebelumnya berdasarkan benchmark [here](https://paperswithcode.com/sota/crowd-counting-on-shanghaitech-a), which are [CSRNet](), [Fusion-Count](), and [YOLO](). Semua model kami dilatih menggunakan arsitektur TensorFlow yang dioptimalkan untuk produksi skala besar.
+Kami melatih 3 model yang telah diteliti sebelumnya berdasarkan benchmark [here](https://paperswithcode.com/sota/crowd-counting-on-shanghaitech-a), yaitu CSRNet, Fusion-Count, dan YOLO. Semua model kami dilatih menggunakan arsitektur TensorFlow yang dioptimalkan untuk produksi skala besar.
 
 1. **CSRNet(Congested Scene Recognition Network)**
 
