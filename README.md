@@ -24,7 +24,7 @@ Kami melatih 3 model yang telah diteliti sebelumnya berdasarkan benchmark [disin
 
 CSRNet adalah model berbasis Convolutional Neural Network (CNN) yang dirancang khusus untuk crowd counting. Arsitektur CSRNet terdiri dari dua bagian utama: frontend dan backend. Frontend dibangun berdasarkan VGG-16 (tanpa fully connected layer), yang bertugas mengekstraksi fitur spasial dari citra input. Backend menggunakan dilated convolutions untuk memperluas receptive field tanpa kehilangan resolusi spasial. CSRNet sangat unggul dalam mendeteksi kerumunan dengan kepadatan tinggi dan tidak teratur, menjadikannya cocok untuk lingkungan seperti stasiun kereta. Model ini dilatih menggunakan ground truth berupa peta kepadatan (density map), bukan bounding box, sehingga sangat efisien dalam menghitung jumlah objek kecil yang saling berdekatan.
 
-- Link model: https://drive.google.com/file/d/10tE-fVzzK8-qKsyUNSUhERHTgOURaudd/view?usp=sharing
+- Link model: https://drive.google.com/drive/folders/1UJZJ-5ZZpQdrDwprQeJsqDXKjFKHL0Ls?usp=sharing
 
 2. **YOLOv8n (You Only Look Once versi 8 - Nano)**
 
