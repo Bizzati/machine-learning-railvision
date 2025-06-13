@@ -6,7 +6,16 @@ RailVision adalah aplikasi AI berbasis web yang dirancang untuk mendeteksi dan m
 Link: https://www.kaggle.com/datasets/tthien/shanghaitech
 
 Deskripsi:
+Proyek ini menggunakan ShanghaiTech Crowd Counting Dataset yang merupakan salah satu dataset benchmark paling populer dalam tugas crowd counting. Dataset ini terdiri dari dua subset utama:
+- Part A: Berisi gambar kerumunan dengan tingkat kepadatan tinggi, diambil dari internet (misalnya konser, demonstrasi).
+- Part B: Berisi gambar kerumunan dengan kepadatan rendah hingga sedang, dikumpulkan dari area publik seperti jalanan kota di Shanghai.
 
+Setiap gambar dalam dataset ini dilengkapi dengan file ground truth berformat `.mat` yang berisi koordinat titik kepala dari setiap individu di gambar.
+
+Untuk meningkatkan variasi dan generalisasi model, dalam proyek ini kami menggabungkan Part A dan Part B menjadi satu dataset besar sebelum dilakukan proses pelatihan dan validasi. Setelah penggabungan, data kemudian dipecah kembali menjadi set training, validation, dan testing menggunakan rasio standar:
+- 72% training
+- 18% validation
+- 10% testing
 
 ## Models
 Kami melatih 3 model yang telah diteliti sebelumnya berdasarkan benchmark [here](https://paperswithcode.com/sota/crowd-counting-on-shanghaitech-a), which are [CSRNet](), [Fusion-Count](), and [YOLO](). Semua model kami dilatih menggunakan arsitektur TensorFlow yang dioptimalkan untuk produksi skala besar.
